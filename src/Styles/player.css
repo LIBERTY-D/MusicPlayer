@@ -28,6 +28,20 @@ a {
     border: 1px solid rgb(223, 223, 223);
     position: relative;
 }
+@media (max-width:768px){
+    .player {
+        width: 80%;
+        max-width: 400px;
+        min-height: 600px;
+        margin: 10% auto;
+        padding: 3rem 1.25rem;
+        background: var(--bg);
+        box-shadow:var(--shadow);
+        border-radius: 15px;
+        border: 1px solid rgb(223, 223, 223);
+        position: relative;
+    } 
+}
 
 .music-header {
     height: 40px;

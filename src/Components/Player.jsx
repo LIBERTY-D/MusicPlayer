@@ -82,6 +82,9 @@ function Player() {
     if(currentSong <musicList.length-1){
       setCurrentSong(currentSong+1)
       setAutoplay(true)
+    }else{
+      setCurrentSong(0)
+      setAutoplay(true)
     }
   }
  
