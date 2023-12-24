@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+    --bgMain: #f3f3f7;
+    --bg:#0f0f0d;
+    --black: #333333;
+    --progress: white;
+    --shadow:box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+body {
+  
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(151,6,161,1) 35%, rgba(0,212,255,1) 100%);
+        color: var(--black);
+}
+/* 
+.app{
+    display: flex;
+   
+} */
